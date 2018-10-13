@@ -1,0 +1,102 @@
+html{
+height: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "bradley hand itc","Yu Gothic Ui";
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #c6d4ec;
+}
+header{
+  color: #fefaf4;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.lace{
+  height: 70px;
+  background-image:
+    radial-gradient(circle at 6px 0, rgba(254, 250, 244, 0) 5px, #fefaf4 6px, rgba(254, 250, 244, 0) 7px),
+    radial-gradient(circle at 12px 0, rgba(254, 250, 244, 0) 11px, #fefaf4 12px, rgba(254, 250, 244, 0) 13px),
+    radial-gradient(circle at 12px 0, rgba(254, 250, 244, 0) 4px, #fefaf4 5px, rgba(254, 250, 244, 0) 6px),
+    radial-gradient(circle at 12px 12px, rgba(254, 250, 244, 0) 1px, #fefaf4 2px, rgba(254, 250, 244, 0) 3px),
+    linear-gradient(to left, rgba(254, 250, 244, 0) 1px, #fefaf4 2px, rgba(254, 250, 244, 0) 3px);
+  background-repeat: repeat-x;
+  background-position: 6px 35px, 6px 39px, 6px 42px, -6px 43px, 8px 45px;
+  background-size: 12px 12px, 24px 13px, 24px 12px, 24px 24px, 24px 8px;
+}
+.lace:before{
+  content: "";
+  display: block;
+  height: 35px;
+  background-image: linear-gradient(to right bottom, rgba(254, 250, 244, 0) 8px, #fefaf4 9px, rgba(254, 250, 244, 0) 10px),linear-gradient(to left bottom, rgba(254, 250, 244, 0) 8px, #fefaf4 9px, rgba(254, 250, 244, 0) 10px);
+  background-repeat: repeat;
+  background-size: 12px 14px, 12px 14px, 12px 11px;
+  background-position: 0 0, 0 0, 0 20px;
+}
+section{
+  flex: 1;
+}
+td{
+  vertical-align: top;
+}
+.ranking{
+  float: left;
+  width: 37%;
+  text-align: right;
+  color: #fff7a0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.rank{
+  height: 300px;
+}
+.rank span{
+  font-size: 60px;
+}
+.seiza{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.eachSeiza{
+  height: 300px;
+  font-size: 20px;
+}
+img{
+  width: 180px;
+  height: 120px;
+}
+.lucky{
+  float: left;
+  width: 37%;
+  font-size: 20px;
+}
+.eachlucky{
+  height: 300px;
+}
+footer{
+  background-color: #4e67b0;
+  color: #fefaf4;
+  font-family: "Yu Gothic Ui";
+}
+.footer-logo{
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 1% 4%;
+}
+.portfolio{
+  float: right;
+  padding: 1.5% 3%;
+  font-size: 18px;
+}
+.c_mark{
+  text-align: center;
+  padding: 1.5% 0;
+}
